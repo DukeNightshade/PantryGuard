@@ -1,34 +1,71 @@
-# Gradle files
+# Created for PantryGuard: Multi-module Android/Spring Boot project
+
+### IDEs ###
+# IntelliJ/Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+### Build Tools ###
+# Gradle
 .gradle/
 build/
+!/**/src/**/build/
+gradle/app.setting
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Maven (if used later)
+target/
 
-# Log/OS Files
+### Java ###
+# Compiled classes
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
 *.log
+logs/
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
+### Android ###
+# Built APKs
 *.apk
-output-metadata.json
+*.aab
+*.ap_
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Generated files
+gen/
+bin/
+.externalNativeBuild/
+captures/
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
+# Local config
+local.properties
 google-services.json
 
-# Android Profiling
-*.hprof
+### Spring Boot ###
+# Application configs (secrets)
+application-*.yml
+application-*.properties
+application-local.properties
+
+### Docker/DevOps ###
+.dockerignore
+Dockerfile.local
+*.dockerignore
+
+### OS ###
+.DS_Store
+Thumbs.db
+.DS_Store?
+
+### Misc ###
+*.swp
+*~
+.env
+keystore.jks
