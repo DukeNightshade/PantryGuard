@@ -4,7 +4,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Java 25](https://img.shields.io/badge/Java-25-orange.svg)](https://openjdk.org/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-green.svg)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.2-green.svg)](https://spring.io/projects/spring-boot)
 [![Android](https://img.shields.io/badge/Android-Jetpack-blue.svg)](https://developer.android.com/jetpack)
 
 ## Features (MVP)
