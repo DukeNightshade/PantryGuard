@@ -2,7 +2,8 @@
 
 ### IDEs ###
 # IntelliJ/Android Studio
-.idea/
+.idea/*
+!.idea/.gitkeep
 *.iml
 *.ipr
 *.iws
